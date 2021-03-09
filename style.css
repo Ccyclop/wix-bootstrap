@@ -1,0 +1,130 @@
+.navbar-nav {
+    margin: auto;
+
+}
+
+nav {
+    max-height: 45px;
+}
+
+.navbar-nav li {
+    margin: 0px 100px;
+}
+
+.bannerarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    border-bottom: 1px solid lightgray;
+}
+
+.bannerarea .image img {
+    transform: rotate(200deg);
+}
+
+.bannerarea a {
+    text-decoration: none;
+}
+
+.bannerarea a p {
+    text-align: center;
+}
+
+.allposts {
+    display: flex;
+    width: 935px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.allposts .leftcontent {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+
+.card-body {
+    padding: 0px!important;
+}
+
+.smallline {
+    width: 22px;
+    border-top: 1px solid black;
+    margin: 16px 0px;
+}
+
+.cardwnb {
+    border: none;
+    width: 260px;
+}
+
+.social {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social a {
+    margin-left: 0px!important;
+    color: black!important;
+    font-size: 20px!important;
+}
+
+.bbl {
+    border-top: solid 1px black;
+}
+
+.svgi {
+    width: 100px;
+    margin: 60px auto 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.rightcontent {
+    width: calc(100% - 300px);
+}
+
+.hrlines {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hrlines hr {
+    width: 40px;
+    margin: 16px 0px;
+    border-top: solid 1px black;
+}
+
+.biggerhr {
+    width: 75px!important;
+    
+}
+
+.hugetitle-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hugetitle-cont h1 {
+    font-size: 114px;
+}
+
+.hugetitle-cont p {
+    font-size: 61px;
+    word-spacing: -6px;
+}
+
+.hugeimg img {
+    height: 354px;
+    width: 237px;
+    object-fit: contain;
+}
+
