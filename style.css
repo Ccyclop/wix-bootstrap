@@ -230,7 +230,9 @@ nav {
     height: 40px;
     width: 262px;
     border: 1px solid lightgray;
-    padding: 3px 3px 3px 21px
+    padding: 3px 3px 3px 21px;
+    transition-duration: 0.2s;
+    
 }
 
 .forms button {
@@ -299,4 +301,8 @@ nav {
 
 .active {
     color: #84947B!important;
+}
+
+.forms input:hover {
+    border: solid 4px lightgray;
 }
