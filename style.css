@@ -11,6 +11,15 @@ nav {
     margin: 0px 100px;
 }
 
+.navbar-nav li a {
+    transition-duration: 0.3s;
+    
+}
+
+.navbar-nav li a:hover {
+    color: #84947B!important;
+}
+
 .bannerarea {
     display: flex;
     flex-direction: column;
@@ -28,15 +37,29 @@ nav {
     text-decoration: none;
 }
 
+.bannerarea a h1 {
+    color: #84947B!important;
+    font-weight: 300;
+    letter-spacing: 5px;
+    font-size: 26px;
+}
+
 .bannerarea a p {
     text-align: center;
+    color: black;
+    font-size: 19px;
 }
 
 .allposts {
     display: flex;
     width: 935px;
-    margin: auto;
+    margin: 100px auto 0px;
     justify-content: space-between;
+
+}
+
+.svgi svg {
+    color: #B2996B;
 }
 
 .allposts .leftcontent {
@@ -52,7 +75,7 @@ nav {
 
 .smallline {
     width: 22px;
-    border-top: 1px solid black;
+    border-top: 1px solid gray;
     margin: 16px 0px;
 }
 
@@ -74,7 +97,7 @@ nav {
 }
 
 .bbl {
-    border-top: solid 1px black;
+    border-top: solid 1px gray;
 }
 
 .svgi {
@@ -97,7 +120,11 @@ nav {
 .hrlines hr {
     width: 40px;
     margin: 16px 0px;
-    border-top: solid 1px black;
+    border-top: solid 1px #B2996B;
+}
+
+.hrlines p {
+    color: #B2996B;
 }
 
 .biggerhr {
@@ -123,8 +150,153 @@ nav {
 }
 
 .hugeimg img {
-    height: 354px;
-    width: 237px;
-    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
+.hugeimg {
+    height: 354px;
+    width: 237px;
+    position: relative;
+}
+
+.hugeimg .overimg {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.overimg span {
+    color: white;
+    font-size: 22px;
+}
+
+.overimg hr {
+    width: 8px;
+    border-top: solid 2px white;
+    margin: 10px 0px;
+    
+}
+
+.cardwithnb {
+    border: none;
+    margin-top: 50px;
+}
+
+.littleline {
+    width: 20px;
+    border-top: solid 1px gray;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.cardtitle {
+    padding-left: 5px;
+}
+
+.gilaki {
+    background-color: #84947B!important;
+    border: none!important;
+    border-radius: 0px!important;
+    height: 40px;
+    width: 151px;
+    margin-top: 30px;
+    margin-left: 5px;
+    transition-duration: 0.3s!important;
+    color: white!important;
+}
+
+.gilaki:hover {
+    background-color: lightgray!important;
+    color: #84947B!important;
+}
+
+.forms h1 {
+    font-size: 19px!important;
+}
+
+.forms {
+    margin-top: 50px;
+}
+
+.forms hr {
+    width: 20px;
+    border-top: 1px solid gray;
+    margin-left: 0px;
+}
+
+.forms input {
+    height: 40px;
+    width: 262px;
+    border: 1px solid lightgray;
+    padding: 3px 3px 3px 21px
+}
+
+.forms button {
+    height: 40px;
+    width: 262px;
+    border: none!important;
+    background-color: #84947B!important;
+    border-radius: 0px!important;
+    margin-top: 10px;
+    transition-duration: 0.3s!important;
+}
+
+.forms button:hover {
+    background-color: lightgray!important;
+    color: #84947B!important;
+}
+
+.margincard {
+    margin-bottom: 30px;
+    border-radius: 0px!important;
+}
+
+.margincard h1 {
+    font-weight: 300;
+}
+
+.margincardbody {
+    padding: 28px 24px 25px!important;
+}
+
+.card-body .userinfo {
+    display: flex;
+    align-items: center;
+}
+
+.username p {
+    margin: 0px 0px 0px 5px;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card a:hover {
+    color: #84947B!important;
+}
+
+.comviews {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.view span {
+    margin-right: 10px;
+}
+
+.like i {
+    color: red;
+}
+
+.like:hover {
+    text-decoration: underline;
+}
+
+.active {
+    color: #84947B!important;
+}
