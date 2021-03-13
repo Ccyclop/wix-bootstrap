@@ -306,3 +306,66 @@ nav {
 .forms input:hover {
     border: solid 4px lightgray;
 }
+
+.readmorebtn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.readmorebtn button {
+    height: 40px;
+    width: 142px;
+    border-radius: 0px!important;
+    border: none!important;
+    background-color: #84947B!important;
+    transition-duration: 0.3s;
+    margin-bottom: 20px;
+}
+
+.readmorebtn button:hover {
+    background-color: lightgray!important;
+    color: #84947B!important;
+}
+
+footer {
+    min-height: 90px;    
+    border-top: solid 1px lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 950px;
+}
+
+.socialfoot ul {
+    display: flex;
+}
+
+.socialfoot ul li {
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+footer a {
+    color: black;
+}
+
+.copyrght p {
+    letter-spacing: 3px;
+}
+
+footer a:hover {
+    text-decoration: none!important;
+    color: black!important;
+}
+
+nav {
+    background-color: rgb(132 148 123 / 6%)!important;
+}
